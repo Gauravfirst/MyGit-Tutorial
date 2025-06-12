@@ -1,0 +1,17 @@
+CMD:-
+dir
+mkdir nameofFolder
+echo > name.txt
+echo line two >> name.txt
+rename name.txt firstName.txt
+type name.txt
+
+git:-
+git init
+git log
+git status
+git commit -m "massage"
+git add .
+git stash
+git stash pop 
+git stash clear
